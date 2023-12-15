@@ -5,17 +5,32 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+body {
+  background-color: lightblue;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+#root {
+  width: 100%;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+.App {
+  text-align: center;
+}
+
+.TaskList {
+  border: 1px solid black;
+  display: inline-block; 
+  padding: 20px;
+}
+
+.TaskItem {
+   margin-bottom: .5rem; 
 }
 
 @keyframes logo-spin {
